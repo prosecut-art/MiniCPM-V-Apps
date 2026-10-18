@@ -1,0 +1,300 @@
+C/C++:       | static 
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni.cpp:9374:29: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:  9374 |     const int hidden_size = llama_n_embd(llama_get_model(ctx_omni->ctx_llama));
+C/C++:       |                             ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni.cpp:9549:28: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:  9549 |     const int llm_hidden = llama_n_embd(llama_get_model(ctx_omni->ctx_llama));
+C/C++:       |                            ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni.cpp:9894:40: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:  9894 |     const int llm_n_embd             = llama_n_embd(llama_get_model(ctx_omni->ctx_llama));
+C/C++:       |                                        ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni.cpp:10120:29: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:  10120 |     const int hidden_size = llama_n_embd(llama_get_model(ctx_omni->ctx_llama));
+C/C++:        |                             ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni.cpp:10354:29: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:  10354 |     const int hidden_size = llama_n_embd(llama_get_model(ctx_omni->ctx_llama));
+C/C++:        |                             ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni.cpp:10586:37: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:  10586 |             const int hidden_size = llama_n_embd(llama_get_model(ctx_omni->ctx_llama));
+C/C++:        |                                     ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni.cpp:10634:107: warning: comparison of integers of different signs: 'size_type' (aka 'unsigned long') and 'int' [-Wsign-compare]
+C/C++:  10634 |             ctx_omni->llm_thread_info->cv.wait(lock, [&] { return ctx_omni->llm_thread_info->queue.size() < ctx_omni->llm_thread_info->MAX_QUEUE_SIZE; });
+C/C++:        |                                                                   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni.cpp:10910:26: warning: 'llama_n_embd' is deprecated: use llama_model_n_embd instead [-Wdeprecated-declarations]
+C/C++:  10910 |         int llm_n_embd = llama_n_embd(llama_get_model(ctx_omni->ctx_llama));
+C/C++:        |                          ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/src/../include/llama.h:553:5: note: 'llama_n_embd' has been explicitly marked deprecated here
+C/C++:   553 |     DEPRECATED(LLAMA_API int32_t llama_n_embd     (const struct llama_model * model), "use llama_model_n_embd instead");
+C/C++:       |     ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/src/../include/llama.h:30:56: note: expanded from macro 'DEPRECATED'
+C/C++:    30 | #    define DEPRECATED(func, hint) func __attribute__((deprecated(hint)))
+C/C++:       |                                                        ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni.cpp:11208:111: warning: comparison of integers of different signs: 'size_type' (aka 'unsigned long') and 'const int' [-Wsign-compare]
+C/C++:  11208 |                 ctx_omni->tts_thread_info->cv.wait(lock, [&] { return ctx_omni->tts_thread_info->queue.size() < ctx_omni->tts_thread_info->MAX_QUEUE_SIZE; });
+C/C++:        |                                                                       ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ ^ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni.cpp:11171:22: warning: unused variable 'llm_elapsed_ms' [-Wunused-variable]
+C/C++:  11171 |                 auto llm_elapsed_ms = std::chrono::duration_cast<std::chrono::milliseconds>(
+C/C++:        |                      ^~~~~~~~~~~~~~
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni.cpp:10876:9: warning: unused variable 'chunk_idx' [-Wunused-variable]
+C/C++:  10876 |     int chunk_idx = 0;
+C/C++:        |         ^~~~~~~~~
+C/C++: 88 warnings generated.
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni-cli.cpp:5:
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./arg.h:3:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./common.h:757:1: warning: attribute declaration must precede definition [-Wignored-attributes]
+C/C++:   757 | LLAMA_COMMON_ATTRIBUTE_FORMAT(1, 2)
+C/C++:       | ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./common.h:751:67: note: expanded from macro 'LLAMA_COMMON_ATTRIBUTE_FORMAT'
+C/C++:   751 | #        define LLAMA_COMMON_ATTRIBUTE_FORMAT(...) __attribute__((format(printf, __VA_ARGS__)))
+C/C++:       |                                                                   ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni-impl.h:207:20: note: previous definition is here
+C/C++:   207 | static std::string string_format(const char * fmt, ...) {
+C/C++:       |                    ^
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni-cli.cpp:6:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./log.h:104:9: warning: 'LOG_TMPL' macro redefined [-Wmacro-redefined]
+C/C++:   104 | #define LOG_TMPL(level, verbosity, ...) \
+C/C++:       |         ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni-impl.h:190:9: note: previous definition is here
+C/C++:   190 | #define LOG_TMPL(level, ...) \
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni-cli.cpp:6:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./log.h:114:9: warning: 'LOG_DBG' macro redefined [-Wmacro-redefined]
+C/C++:   114 | #define LOG_DBG(...) LOG_TMPL(GGML_LOG_LEVEL_DEBUG, LOG_LEVEL_DEBUG,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni-impl.h:199:9: note: previous definition is here
+C/C++:   199 | #define LOG_DBG(...) LOG_TMPL(GGML_LOG_LEVEL_DEBUG, __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni-cli.cpp:6:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./log.h:116:9: warning: 'LOG_INF' macro redefined [-Wmacro-redefined]
+C/C++:   116 | #define LOG_INF(...) LOG_TMPL(GGML_LOG_LEVEL_INFO,  LOG_LEVEL_INFO,   __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni-impl.h:196:9: note: previous definition is here
+C/C++:   196 | #define LOG_INF(...) LOG_TMPL(GGML_LOG_LEVEL_INFO,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni-cli.cpp:6:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./log.h:117:9: warning: 'LOG_WRN' macro redefined [-Wmacro-redefined]
+C/C++:   117 | #define LOG_WRN(...) LOG_TMPL(GGML_LOG_LEVEL_WARN,  LOG_LEVEL_WARN,   __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni-impl.h:197:9: note: previous definition is here
+C/C++:   197 | #define LOG_WRN(...) LOG_TMPL(GGML_LOG_LEVEL_WARN,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni-cli.cpp:6:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./log.h:118:9: warning: 'LOG_ERR' macro redefined [-Wmacro-redefined]
+C/C++:   118 | #define LOG_ERR(...) LOG_TMPL(GGML_LOG_LEVEL_ERROR, LOG_LEVEL_ERROR,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni-impl.h:198:9: note: previous definition is here
+C/C++:   198 | #define LOG_ERR(...) LOG_TMPL(GGML_LOG_LEVEL_ERROR, __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni-cli.cpp:6:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./log.h:119:9: warning: 'LOG_CNT' macro redefined [-Wmacro-redefined]
+C/C++:   119 | #define LOG_CNT(...) LOG_TMPL(GGML_LOG_LEVEL_CONT,  LOG_LEVEL_INFO,   __VA_ARGS__) // same as INFO
+C/C++:       |         ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni-impl.h:200:9: note: previous definition is here
+C/C++:   200 | #define LOG_CNT(...) LOG_TMPL(GGML_LOG_LEVEL_CONT,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni-cli.cpp:165:62: warning: unused parameter 'params' [-Wunused-parameter]
+C/C++:   165 | void test_case(struct omni_context *ctx_omni, common_params& params, std::string data_path_prefix, int cnt){
+C/C++:       |                                                              ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni-cli.cpp:165:6: warning: no previous prototype for function 'test_case' [-Wmissing-prototypes]
+C/C++:   165 | void test_case(struct omni_context *ctx_omni, common_params& params, std::string data_path_prefix, int cnt){
+C/C++:       |      ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/omni-cli.cpp:165:1: note: declare 'static' if the function is not intended to be used outside of this translation unit
+C/C++:   165 | void test_case(struct omni_context *ctx_omni, common_params& params, std::string data_path_prefix, int cnt){
+C/C++:       | ^
+C/C++:       | static 
+C/C++: 9 warnings generated.
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/test/single_test_audio.cpp:22:
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./arg.h:3:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./common.h:757:1: warning: attribute declaration must precede definition [-Wignored-attributes]
+C/C++:   757 | LLAMA_COMMON_ATTRIBUTE_FORMAT(1, 2)
+C/C++:       | ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./common.h:751:67: note: expanded from macro 'LLAMA_COMMON_ATTRIBUTE_FORMAT'
+C/C++:   751 | #        define LLAMA_COMMON_ATTRIBUTE_FORMAT(...) __attribute__((format(printf, __VA_ARGS__)))
+C/C++:       |                                                                   ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/./omni-impl.h:207:20: note: previous definition is here
+C/C++:   207 | static std::string string_format(const char * fmt, ...) {
+C/C++:       |                    ^
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/test/single_test_audio.cpp:23:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./log.h:104:9: warning: 'LOG_TMPL' macro redefined [-Wmacro-redefined]
+C/C++:   104 | #define LOG_TMPL(level, verbosity, ...) \
+C/C++:       |         ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/./omni-impl.h:190:9: note: previous definition is here
+C/C++:   190 | #define LOG_TMPL(level, ...) \
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/test/single_test_audio.cpp:23:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./log.h:114:9: warning: 'LOG_DBG' macro redefined [-Wmacro-redefined]
+C/C++:   114 | #define LOG_DBG(...) LOG_TMPL(GGML_LOG_LEVEL_DEBUG, LOG_LEVEL_DEBUG,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/./omni-impl.h:199:9: note: previous definition is here
+C/C++:   199 | #define LOG_DBG(...) LOG_TMPL(GGML_LOG_LEVEL_DEBUG, __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/test/single_test_audio.cpp:23:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./log.h:116:9: warning: 'LOG_INF' macro redefined [-Wmacro-redefined]
+C/C++:   116 | #define LOG_INF(...) LOG_TMPL(GGML_LOG_LEVEL_INFO,  LOG_LEVEL_INFO,   __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/./omni-impl.h:196:9: note: previous definition is here
+C/C++:   196 | #define LOG_INF(...) LOG_TMPL(GGML_LOG_LEVEL_INFO,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/test/single_test_audio.cpp:23:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./log.h:117:9: warning: 'LOG_WRN' macro redefined [-Wmacro-redefined]
+C/C++:   117 | #define LOG_WRN(...) LOG_TMPL(GGML_LOG_LEVEL_WARN,  LOG_LEVEL_WARN,   __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/./omni-impl.h:197:9: note: previous definition is here
+C/C++:   197 | #define LOG_WRN(...) LOG_TMPL(GGML_LOG_LEVEL_WARN,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/test/single_test_audio.cpp:23:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./log.h:118:9: warning: 'LOG_ERR' macro redefined [-Wmacro-redefined]
+C/C++:   118 | #define LOG_ERR(...) LOG_TMPL(GGML_LOG_LEVEL_ERROR, LOG_LEVEL_ERROR,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/./omni-impl.h:198:9: note: previous definition is here
+C/C++:   198 | #define LOG_ERR(...) LOG_TMPL(GGML_LOG_LEVEL_ERROR, __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/test/single_test_audio.cpp:23:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./log.h:119:9: warning: 'LOG_CNT' macro redefined [-Wmacro-redefined]
+C/C++:   119 | #define LOG_CNT(...) LOG_TMPL(GGML_LOG_LEVEL_CONT,  LOG_LEVEL_INFO,   __VA_ARGS__) // same as INFO
+C/C++:       |         ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/./omni-impl.h:200:9: note: previous definition is here
+C/C++:   200 | #define LOG_CNT(...) LOG_TMPL(GGML_LOG_LEVEL_CONT,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: 7 warnings generated.
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/test/single_test_omni.cpp:23:
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./arg.h:3:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./common.h:757:1: warning: attribute declaration must precede definition [-Wignored-attributes]
+C/C++:   757 | LLAMA_COMMON_ATTRIBUTE_FORMAT(1, 2)
+C/C++:       | ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./common.h:751:67: note: expanded from macro 'LLAMA_COMMON_ATTRIBUTE_FORMAT'
+C/C++:   751 | #        define LLAMA_COMMON_ATTRIBUTE_FORMAT(...) __attribute__((format(printf, __VA_ARGS__)))
+C/C++:       |                                                                   ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/./omni-impl.h:207:20: note: previous definition is here
+C/C++:   207 | static std::string string_format(const char * fmt, ...) {
+C/C++:       |                    ^
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/test/single_test_omni.cpp:24:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./log.h:104:9: warning: 'LOG_TMPL' macro redefined [-Wmacro-redefined]
+C/C++:   104 | #define LOG_TMPL(level, verbosity, ...) \
+C/C++:       |         ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/./omni-impl.h:190:9: note: previous definition is here
+C/C++:   190 | #define LOG_TMPL(level, ...) \
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/test/single_test_omni.cpp:24:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./log.h:114:9: warning: 'LOG_DBG' macro redefined [-Wmacro-redefined]
+C/C++:   114 | #define LOG_DBG(...) LOG_TMPL(GGML_LOG_LEVEL_DEBUG, LOG_LEVEL_DEBUG,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/./omni-impl.h:199:9: note: previous definition is here
+C/C++:   199 | #define LOG_DBG(...) LOG_TMPL(GGML_LOG_LEVEL_DEBUG, __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/test/single_test_omni.cpp:24:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./log.h:116:9: warning: 'LOG_INF' macro redefined [-Wmacro-redefined]
+C/C++:   116 | #define LOG_INF(...) LOG_TMPL(GGML_LOG_LEVEL_INFO,  LOG_LEVEL_INFO,   __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/./omni-impl.h:196:9: note: previous definition is here
+C/C++:   196 | #define LOG_INF(...) LOG_TMPL(GGML_LOG_LEVEL_INFO,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/test/single_test_omni.cpp:24:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./log.h:117:9: warning: 'LOG_WRN' macro redefined [-Wmacro-redefined]
+C/C++:   117 | #define LOG_WRN(...) LOG_TMPL(GGML_LOG_LEVEL_WARN,  LOG_LEVEL_WARN,   __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/./omni-impl.h:197:9: note: previous definition is here
+C/C++:   197 | #define LOG_WRN(...) LOG_TMPL(GGML_LOG_LEVEL_WARN,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/test/single_test_omni.cpp:24:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./log.h:118:9: warning: 'LOG_ERR' macro redefined [-Wmacro-redefined]
+C/C++:   118 | #define LOG_ERR(...) LOG_TMPL(GGML_LOG_LEVEL_ERROR, LOG_LEVEL_ERROR,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/./omni-impl.h:198:9: note: previous definition is here
+C/C++:   198 | #define LOG_ERR(...) LOG_TMPL(GGML_LOG_LEVEL_ERROR, __VA_ARGS__)
+C/C++:       |         ^
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/test/single_test_omni.cpp:24:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./log.h:119:9: warning: 'LOG_CNT' macro redefined [-Wmacro-redefined]
+C/C++:   119 | #define LOG_CNT(...) LOG_TMPL(GGML_LOG_LEVEL_CONT,  LOG_LEVEL_INFO,   __VA_ARGS__) // same as INFO
+C/C++:       |         ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/./omni-impl.h:200:9: note: previous definition is here
+C/C++:   200 | #define LOG_CNT(...) LOG_TMPL(GGML_LOG_LEVEL_CONT,  __VA_ARGS__)
+C/C++:       |         ^
+C/C++: 7 warnings generated.
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/test/test-duplex.cpp:16:
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./arg.h:3:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./common.h:757:1: warning: attribute declaration must precede definition [-Wignored-attributes]
+C/C++:   757 | LLAMA_COMMON_ATTRIBUTE_FORMAT(1, 2)
+C/C++:       | ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./common.h:751:67: note: expanded from macro 'LLAMA_COMMON_ATTRIBUTE_FORMAT'
+C/C++:   751 | #        define LLAMA_COMMON_ATTRIBUTE_FORMAT(...) __attribute__((format(printf, __VA_ARGS__)))
+C/C++:       |                                                                   ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/./omni-impl.h:207:20: note: previous definition is here
+C/C++:   207 | static std::string string_format(const char * fmt, ...) {
+C/C++:       |                    ^
+C/C++: 1 warning generated.
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/perf/perf-duplex.cpp:25:
+C/C++: In file included from /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./arg.h:3:
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./common.h:757:1: warning: attribute declaration must precede definition [-Wignored-attributes]
+C/C++:   757 | LLAMA_COMMON_ATTRIBUTE_FORMAT(1, 2)
+C/C++:       | ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/common/./common.h:751:67: note: expanded from macro 'LLAMA_COMMON_ATTRIBUTE_FORMAT'
+C/C++:   751 | #        define LLAMA_COMMON_ATTRIBUTE_FORMAT(...) __attribute__((format(printf, __VA_ARGS__)))
+C/C++:       |                                                                   ^
+C/C++: /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/llama.cpp-omni/tools/omni/./omni-impl.h:207:20: note: previous definition is here
+C/C++:   207 | static std::string string_format(const char * fmt, ...) {
+C/C++:       |                    ^
+C/C++: 1 warning generated.
+
+> Task :app:buildGgmlCpu_v86
+Copied v86 ggml-cpu -> /home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/MiniCPM-V-demo-Android/app/src/main/jniLibs/arm64-v8a/libggml-cpu-v86.so (6183K)
+
+> Task :app:mergeDebugJniLibFolders
+> Task :app:mergeDebugNativeLibs
+> Task :app:stripDebugDebugSymbols
+> Task :app:validateSigningDebug
+> Task :app:writeDebugAppMetadata
+> Task :app:writeDebugSigningConfigVersions
+> Task :app:processDebugResources
+> Task :app:dexBuilderDebug
+> Task :app:mergeProjectDexDebug
+> Task :app:packageDebug
+> Task :app:createDebugApkListingFileRedirect
+> Task :app:assembleDebug
+
+[Incubating] Problems report is available at: file:///home/runner/work/MiniCPM-V-Apps/MiniCPM-V-Apps/MiniCPM-V-demo-Android/build/reports/problems/problems-report.html
+
+Deprecated Gradle features were used in this build, making it incompatible with Gradle 10.
+
+You can use '--warning-mode all' to show the individual deprecation warnings and determine if they come from your own scripts or plugins.
+
+For more on this, please refer to https://docs.gradle.org/9.3.1/userguide/command_line_interface.html#sec:command_line_warnings in the Gradle documentation.
+
+BUILD SUCCESSFUL in 6m 55s
+41 actionable tasks: 41 executed
